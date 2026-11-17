@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Vinicius
+  namespace: vinicius
+  role_name: servidor_nginx
+  description: Role Ansible para provisionamento e ativacao do servidor web Nginx no Ubuntu
+  license: MIT
+  min_ansible_version: "2.12"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
+
+dependencies: []

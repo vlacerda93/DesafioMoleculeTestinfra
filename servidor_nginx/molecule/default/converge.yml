@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: Incluir a role servidor_nginx
+      ansible.builtin.include_role:
+        name: vinicius.servidor_nginx
